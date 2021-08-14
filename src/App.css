@@ -1,0 +1,174 @@
+.App{
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+}
+
+.nv {
+  float: right;
+}
+
+.title{
+  float: center;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/* the banner*/
+
+.div{
+  border: black;
+  border-style: dashed;
+}
+
+.landingpad{
+  background-image: url("./asserts/landing.png");
+  position: relative;
+  left:5%;
+  right:5%;
+  width:90%;
+  height:369px;
+  text-align: center;
+}
+
+.slogan{
+  color: white;
+  font-size: 40px;
+  font-family: Georgia;
+}
+
+.para{
+  color: white;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+p.landingpad{
+  position: absolute;
+  top:50%;
+}
+
+.avbookshdr{
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  font-family: Georgia;
+  text-align: center;
+  position:relative;
+}
+
+.avbooklist{
+  height:auto;
+  width:369px;
+  position: relative;
+  left:5%;
+  right:5%;
+}
+
+.bookimg{
+  width: 40px;
+  height: 60px;
+}
+
+.addbooks{
+  background-image: url("./asserts/addbook.png");
+  position: relative;
+  left:5%;
+  right:5%;
+  width:90%;
+  height:369px;
+}
+
+#a{
+  text-align:center;
+}
+
+
+
+#entryform{
+  width:30%;
+  height:auto;
+  position:absolute;
+  right:0px;
+  top:10%;
+}
+
+.labelbef{
+  background-color: black;
+  color: white;
+}
+
+.buttonclr{
+  background-color: black;
+  color: white;
+}
+
+.warn{
+  color: red;
+}
+
+.contactus{
+  position: relative;
+  left:10%;
+  right:10%;
+  width:80%;
+  height:369px;
+}
+
+#howtofindus{
+  height: 369px;
+  background-image:url("./asserts/contactus.png");
+  background-repeat: no-repeat;
+  padding:5%;
+  width:50%;
+  font-size: 30px;
+  font-family: Georgia;
+}
+
+#contactusdetails{
+  height: 369px;
+  background-image:url("./asserts/contactus2.png");
+  background-repeat: no-repeat;
+  width:50%;
+  position: absolute;
+  right: 0%;
+  top:0%;
+}
+
+#b{
+  position:absolute;
+  left:10%;
+  top:10%;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+
+.footer{
+  position:relative;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+}
